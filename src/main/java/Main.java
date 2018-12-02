@@ -1,5 +1,8 @@
+import Request.Request;
+
 public class Main {
     public static  void main(String[] args){
-        System.out.println("Sali gugus");
+        Request request = new Request();
+        request.doRequest();
     }
 }
