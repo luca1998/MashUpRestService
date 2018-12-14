@@ -1,11 +1,11 @@
-package objects;
+package ch.mashup.MashupService;
 
-public class Witz {
-    String category;
-    String icon_url;
-    String id;
-    String url;
-    String value;
+public class ChuckNorrisJoke {
+    private String category;
+    private String icon_url;
+    private String id;
+    private String url;
+    private String value;
 
     public String getCategory() {
         return category;
@@ -47,3 +47,4 @@ public class Witz {
         this.value = value;
     }
 }
+
